@@ -1,0 +1,118 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Wasserstrahlpumpe}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=406d850ca207641ffd2594850ed7b8ef}{%
+           family={chemie-schule},
+           familyi={c\bibinithyphendelim s\bibinitperiod}}}%
+      }
+      \strng{namehash}{406d850ca207641ffd2594850ed7b8ef}
+      \strng{fullhash}{406d850ca207641ffd2594850ed7b8ef}
+      \strng{fullhashraw}{406d850ca207641ffd2594850ed7b8ef}
+      \strng{bibnamehash}{406d850ca207641ffd2594850ed7b8ef}
+      \strng{authorbibnamehash}{406d850ca207641ffd2594850ed7b8ef}
+      \strng{authornamehash}{406d850ca207641ffd2594850ed7b8ef}
+      \strng{authorfullhash}{406d850ca207641ffd2594850ed7b8ef}
+      \strng{authorfullhashraw}{406d850ca207641ffd2594850ed7b8ef}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wasserstrahlpumpe}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.chemie-schule.de/KnowHow/Wasserstrahlpumpe
+      \endverb
+      \verb{url}
+      \verb https://www.chemie-schule.de/KnowHow/Wasserstrahlpumpe
+      \endverb
+    \endentry
+    \entry{Phasendiagrammwasser}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=fec0fc365cff9445b08b753cc8230aab}{%
+           family={studyflix},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{fec0fc365cff9445b08b753cc8230aab}
+      \strng{fullhash}{fec0fc365cff9445b08b753cc8230aab}
+      \strng{fullhashraw}{fec0fc365cff9445b08b753cc8230aab}
+      \strng{bibnamehash}{fec0fc365cff9445b08b753cc8230aab}
+      \strng{authorbibnamehash}{fec0fc365cff9445b08b753cc8230aab}
+      \strng{authornamehash}{fec0fc365cff9445b08b753cc8230aab}
+      \strng{authorfullhash}{fec0fc365cff9445b08b753cc8230aab}
+      \strng{authorfullhashraw}{fec0fc365cff9445b08b753cc8230aab}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Phasendiagramm Wasser}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://studyflix.de/chemie/phasendiagramm-wasser-1465
+      \endverb
+      \verb{url}
+      \verb https://studyflix.de/chemie/phasendiagramm-wasser-1465
+      \endverb
+    \endentry
+    \entry{Flüssigkeitsbarometer}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flüssigkeitsbarometer}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Barometer
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Barometer
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
