@@ -63,6 +63,51 @@ sogar beide Phasen gleichzeitig existieren. Auf dem Triple-Punkt
 existieren sogar alle drei Phasen nebeneinander.
 
 \newpage
+\subsection{Clausius-Clapeyron-Gleichung}
+
+Mithilfe der Clausius-Clapeyron-Gleichung lässt sich der Zusammenhang 
+zwischen dem Dampfdruck und der Temperatur eines Systems ermitteln. 
+Sie kann mithilfe einiger Annahmen aus der Formel des Carnot-Kreisprozesses 
+hergeleitet werden. Hierzu wird die Formel des Wirkungsgrad $\eta$ des Carnot-Kreisprozesses 
+verwendet, bei welcher die Übergänge des Kreisprozesses beachtet werden 
+bei denen Arbeit verrichtet wird, dadurch erhählt man für den Wirkungsgrad 
+$\eta$ 
+\begin{equation}
+    \eta = \frac{\Delta W}{\Delta Q} = \frac{\Delta p_D \cdot \left(V_D-V_{Fl}\right)}{r\left(T\right)} = \frac{\Delta T}{T + \Delta T}
+\label{Carnot-Kreisprozess}
+\end{equation}
+durch umformen der Formel \ref{Carnot-Kreisprozess} ergibt sich
+\begin{equation}
+    \frac{\Delta \textit{p}_D}{\Delta T} = \frac{r\left(T\right)}{\left(V_D-V_{Fl}\right)\cdot \left(T + \Delta T\right)}
+\label{Carnot-Umgestellt}
+\end{equation}
+wenn nun angenommen wird das $\Delta T$ gegen 0 geht kann Gleichung 
+\ref{Carnot-Umgestellt} zur Clausius-Clapeyron-Gleichung angepasst 
+werden.
+\begin{equation}
+    \frac{d p_D}{d T} = \frac{r\left(T\right)}{\left(V_D - V_{Fl}\right) \cdot T}
+\label{Clausius-Clapeyron-Gleichung}
+\end{equation}
+Um nun den Dampfdruck in Abhängigkeit der Temperatur zu bekommen wird 
+angenommen, dass VD >> VF l und das $r\left(T\right)$ im betrachteten Temperaturbereich Konstant ist,
+dementsprechend $r\left(T\right) = r$. Diese annahmen zusammen mit Gleichung \ref{Clausius-Clapeyron-Gleichung} ergeben,
+\begin{equation}
+    \frac{d p_D}{dT} = \frac{r}{V_D \cdot T}
+    \label{DampfdruckTemp}
+\end{equation}
+Um nun aus Gleichung \ref{DampfdruckTemp} eine Formel nur für den Dampfdruck 
+zu erhalten, wird angenommen dass das Dampfvolumen dass eines Idealen 
+Gases entspricht, zusätzlich wird noch mithilfe von Trennung der Variablen 
+Integriert. Dadurch erhält man für $d_p$
+\begin{equation}
+    p_D = p_D^0 \cdot exp\left[-\frac{r}{R}\cdot \left(\frac{1}{T}-\frac{1}{T_0}\right)\right]
+\end{equation}
+Hierbei ist $p_D$ der neue Dampfdruck, $P_D^0$ der Dampdruck des 
+Anfangszustand, r die Verdampfungswärme, R die allgemeine Gaskonstante, 
+T die neue Temperatur und $T_0$ die Anfangs Temperatur.
+
+\newpage
+
 \subsection{Flüssigkeitsbarometer}
 Flüssigkeitsbarometer bestehen aus einem am Oberen Ende geschlossenem 
 Rohr welches bis auf eine kleine Menge an Luft mit einer Flüssigkeit 
