@@ -10,7 +10,6 @@ zweiten Schritt verdichtet und zum Ausgabepunkt transportiert
 wird, dort wird sie dann ausgeschoben, daraufhin wiederholt 
 sich der Prozess nun. Bei der Wasserstrahlpumpe im Gegensatz 
 beruht die Funktionsweise auf der Kontinuitätsgleichung. Das durch ein Rohr strömende Wasser wird an einer Verengung im Rohr beschleunigt. Aufgrund der Kontinuitätsgleichung ist die Fließgeschwindigkeit des Wassers proportional zur Verringerung des Rohrquerschnitts. Nach der Bernoulli-Gleichung führt dies an dieser Stelle zu einem Anstieg des dynamischen Drucks, während der statische Druck gleichzeitig abnimmt.
-
 Der so entstehende Unterdruck ermöglicht das Entziehen von Luft aus dem zu evakuierenden System. Die angesaugte Luft wird in den Wasserstrahl eingemischt und zusammen mit diesem in den Außenraum abgeführt.
 \begin{figure}[H]
     \centering
@@ -31,11 +30,11 @@ sie haben aber immer noch genug Energie übrig, um sich innerhalb der
 Flüssigkeit frei zu bewegen. In der festen Phase haben die Teilchen kaum noch 
 Energie übrig, weshalb sie sich in einem festen Gitter anordnen und nur 
 noch an ihrem festen Platz schwingen können. Die Besonderheit von Wasser 
-ist dass es bei 4°C eine Dichte anomalie gibt, dass bedeutet dass dort 
-die Dichte von Wasser am höchsten ist und bei niedriger und höherer 
-Temperatur die Dichte abnimmt, diese Eigenschaft kann man auch im 
-Phasendiagramm erkennen denn durch diese Eigenschaft ist die 
-Schmelz/Gefrierkurve stärker gebogen als bei normalen Stoffen.
+ist, dass es bei 4°C eine Dichteanomalie gibt. Das bedeutet, dass dort 
+die Dichte von Wasser am höchsten ist und bei niedrigerer und höherer 
+Temperatur die Dichte abnimmt. Diese Eigenschaft kann man auch im 
+Phasendiagramm erkennen, denn durch diese Eigenschaft ist die 
+Schmelz-/Gefrierkurve stärker gebogen als bei normalen Stoffen.
 \begin{figure}[H]
 \centering
 \includegraphics[scale = 1]{Bilder/Vergleich Phasendiagramm.png}
@@ -59,38 +58,44 @@ dargestellt werden. Diese Formel bedeutet, dass das Potential des — in diesem 
 Mithilfe der Clausius-Clapeyron-Gleichung lässt sich der Zusammenhang zwischen dem Dampfdruck und der Temperatur eines Systems ermitteln. Sie kann mithilfe einiger Annahmen aus der Formel des Carnot-Kreisprozesses hergeleitet werden. Hierzu wird die Formel für den Wirkungsgrad $\eta$
 des Carnot-Kreisprozesses verwendet, bei welcher die Übergänge des Kreisprozesses betrachtet werden, bei denen Arbeit verrichtet wird. Dadurch erhält man für den Wirkungsgrad $\eta$:
 \begin{equation}
-    \eta = \frac{\Delta W}{\Delta Q} = \frac{\Delta p_D \cdot \left(V_D-V_{Fl}\right)}{r\left(T\right)} = \frac{\Delta T}{T + \Delta T}
+    \eta = \frac{\Delta W}{\Delta Q} = \frac{\Delta p_D \cdot \left(V_D - V_{Fl}\right)}{r\left(T\right)} = \frac{\Delta T}{T + \Delta T}
 \label{Carnot-Kreisprozess}
 \end{equation}
-durch umformen der Formel \ref{Carnot-Kreisprozess} ergibt sich
+
+Durch Umformen der Formel \ref{Carnot-Kreisprozess} ergibt sich:
 \begin{equation}
-    \frac{\Delta \textit{p}_D}{\Delta T} = \frac{r\left(T\right)}{\left(V_D-V_{Fl}\right)\cdot \left(T + \Delta T\right)}
+    \frac{\Delta p_D}{\Delta T} = \frac{r\left(T\right)}{\left(V_D - V_{Fl}\right)\cdot \left(T + \Delta T\right)}
 \label{Carnot-Umgestellt}
 \end{equation}
-wenn nun angenommen wird das $\Delta T$ gegen 0 geht kann Gleichung 
+
+Wenn nun angenommen wird, dass $\Delta T$ gegen 0 geht, kann Gleichung 
 \ref{Carnot-Umgestellt} zur Clausius-Clapeyron-Gleichung angepasst 
-werden.
+werden:
 \begin{equation}
     \frac{d p_D}{d T} = \frac{r\left(T\right)}{\left(V_D - V_{Fl}\right) \cdot T}
 \label{Clausius-Clapeyron-Gleichung}
 \end{equation}
-Um nun den Dampfdruck in Abhängigkeit der Temperatur zu bekommen, wird 
-angenommen dass VD >> VF l und das $r\left(T\right)$ im betrachteten Temperaturbereich Konstant ist,
-dementsprechend $r\left(T\right) = r$. Diese annahmen zusammen mit Gleichung \ref{Clausius-Clapeyron-Gleichung} ergeben,
+
+Um nun den Dampfdruck in Abhängigkeit der Temperatur zu erhalten, wird 
+angenommen, dass $V_D \gg V_{Fl}$ und dass $r\left(T\right)$ im betrachteten Temperaturbereich konstant ist,
+also $r\left(T\right) = r$. Diese Annahmen zusammen mit Gleichung \ref{Clausius-Clapeyron-Gleichung} ergeben:
 \begin{equation}
     \frac{d p_D}{dT} = \frac{r}{V_D \cdot T}
-    \label{DampfdruckTemp}
+\label{DampfdruckTemp}
 \end{equation}
+
 Um nun aus Gleichung \ref{DampfdruckTemp} eine Formel nur für den Dampfdruck 
-zu erhalten, wird angenommen dass das Dampfvolumen dass eines Idealen 
-Gases entspricht, zusätzlich wird noch mithilfe von Trennung der Variablen 
-Integriert. Dadurch erhält man für $d_p$
+zu erhalten, wird angenommen, dass das Dampfvolumen dem eines idealen 
+Gases entspricht. Zusätzlich wird noch mithilfe von Trennung der Variablen 
+integriert. Dadurch erhält man für $p_D$:
 \begin{equation}
-    p_D = p_D^0 \cdot exp\left[-\frac{r}{R}\cdot \left(\frac{1}{T}-\frac{1}{T_0}\right)\right]
+    p_D = p_D^0 \cdot \exp\left[-\frac{r}{R}\cdot \left(\frac{1}{T} - \frac{1}{T_0}\right)\right]
 \end{equation}
-Hierbei ist $p_D$ der neue Dampfdruck, $P_D^0$ der Dampdruck des 
-Anfangszustand, r die Verdampfungswärme, R die allgemeine Gaskonstante, 
-T die neue Temperatur und $T_0$ die Anfangs Temperatur.
+
+Hierbei ist $p_D$ der neue Dampfdruck, $p_D^0$ der Dampfdruck des 
+Anfangszustands, $r$ die Verdampfungswärme, $R$ die allgemeine Gaskonstante, 
+$T$ die neue Temperatur und $T_0$ die Anfangstemperatur.
+
 
 \newpage
 
@@ -103,7 +108,3 @@ Flüssigkeitsbarometer bestehen aus einem am oberen Ende geschlossenen Rohr, das
 \end{figure}
 
 
-\begin{equation}
-p_D = p_{0D} \, \exp\left( -\frac{r}{R} \left( \frac{1}{T} - \frac{1}{T_0} \right) \right)
-\label{eq:pd}
-\end{equation}
