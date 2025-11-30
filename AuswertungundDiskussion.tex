@@ -1,3 +1,133 @@
 \section{Auswertung}
-\subsection{Teil 1, Umgebungsdruck}
-Es wurde für die Quecksilbersäule eine Höhe von 953,0mm und für die Kuppel eine Höhe von 1,2 mm gemessen. Die Raumtemperatur war $21,1
+\subsection{Umgebungsdruck}
+Es wurde für die Quecksilbersäule eine Höhe von 953,0mb und für die Kuppel eine Höhe von 1,2 mb gemessen. Die Raumtemperatur war $(21,1 \pm0,1)$°C. Für die Geographische Lage von Augsburg wurde eine Höhenlage von 500m, eine östliche Länge von 10° 52min und eine nördliche Breite von 48° 21min verwendet. Mit diesen Werten lässt sich die gemessene Quecksilbersäure korrigieren. 
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c|c}
+
+Gemessener Druck & 953,0mb \\
+\hline
+Temperaturkorrektur(21°C) & $- 3,64$mb \\
+
+Kuppenkorrektur(1,2mb) & +0,64mb\\
+
+Höhenkorrektur(500m) &  $ -0,09$mb \\
+
+Breitenkorrektur(48°) &  $ +0,39$mb \\
+\hline
+Korregierter Druck $p_0$ & = 950,30mb \\
+
+\end{tabular}
+\caption{korregierter Druck in mbar}
+\end{table}
+
+
+Es Ergibt sich ein wahrer Druck von $p_0 = 950,30mb = 95030$ Pa. Hier wird angenommen das keine weiteren Fehler gemacht wurden und somit Auf die Fehlerrechnung versichtet. Die Steighöhe der Quecksilbersäule ist im folgendem
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c|c}
+$h_{Hg}$ [mm] & T[°C] \\
+\hline
+645 $\pm$ 3 & 42.2 $\pm$ 0.05 \\
+627 $\pm$ 3 & 50.9 $\pm$ 0.05 \\
+590 $\pm$ 3 & 56.9 $\pm$ 0.05 \\
+581 $\pm$ 3 & 58.7 $\pm$ 0.05 \\
+555 $\pm$ 3 & 61.7 $\pm$ 0.05 \\
+548 $\pm$ 3 & 63.5 $\pm$ 0.05 \\
+536 $\pm$ 3 & 64.5 $\pm$ 0.05 \\
+522 $\pm$ 3 & 66.8 $\pm$ 0.05 \\
+508 $\pm$ 3 & 68.2 $\pm$ 0.05 \\
+490 $\pm$ 3 & 70.3 $\pm$ 0.05 \\
+473 $\pm$ 3 & 72.5 $\pm$ 0.05 \\
+453 $\pm$ 3 & 75.0 $\pm$ 0.05 \\
+438 $\pm$ 3 & 76.0 $\pm$ 0.05 \\
+420 $\pm$ 3 & 78.1 $\pm$ 0.05 \\
+400 $\pm$ 3 & 79.2 $\pm$ 0.05 \\
+373 $\pm$ 3 & 81.2 $\pm$ 0.05 \\
+350 $\pm$ 3 & 83.0 $\pm$ 0.05 \\
+328 $\pm$ 3 & 84.3 $\pm$ 0.05 \\
+305 $\pm$ 3 & 86.0 $\pm$ 0.05 \\
+290 $\pm$ 3 & 86.7 $\pm$ 0.05 \\
+260 $\pm$ 3 & 88.0 $\pm$ 0.05 \\
+238 $\pm$ 3 & 89.0 $\pm$ 0.05 \\
+170 $\pm$ 3 & 92.7 $\pm$ 0.05 \\
+\end{tabular}
+\caption{Die Messwerte von der Quecksilbersäule und der zugehörigen Temperatur mit Ablesefehlern}
+\label{tb:messwerte}
+\end{table}
+
+gegen die ensprechende Temperatur aufgetragen. Durch die Differenz von dem Außendruck und dem Druck im Gefäß. Um Damit den Dampfdruck $p_D$ zu berechnen. Betrachtet man zu erst den Druck $p$
+
+\begin{equation}
+p = \frac{F}{A}
+\end{equation}
+
+Da die relevante Kraft hier die Gravitationskraft ist folgt mit $F = F_g$ daraus:
+
+\begin{equation}
+p = \frac{m_{Hg} \cdot g}{A_{Rohr}} = \frac{\rho_{Hg} \cdot A_{Rohr} \cdot h \cdot g}{A_{Rohr}} = \rho_{Hg} \cdot g \cdot h = p_0 - p_D
+\end{equation}
+
+Damit folgt für den Dampfdruck 
+\begin{equation}
+p_D = p_0 - p_{Hg} \cdot g \cdot h
+\label{eq:d_P2_FR}
+\end{equation}
+
+Der Fehler ist gegeben durch wobei der Fehler $\Delta h = 3$mm von dem Ablesefehler der Höhe der Quecksilbersäule kommt.
+
+\begin{equation}
+\Delta p_D = \pm \rho_{Hg} \cdot g \cdot \Delta h
+\label{eq:d_P2}
+\end{equation}
+
+Da $g = 9,81 \frac{\text{m}}{\text{s}^2}$ und $p_D = 95030$ Pa wie oben erläutert als fehlerfrei angenommen wurden. $P_{Hg}= 13534 \frac{\text{kg}}{\text{m}^3}$ ist ein Literaturwert \cite{Hgdichte} und wurde auch als fehlerfrei angenommen. 
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{r | r}
+T [°C] & $P_D$ [Pa] \\
+\hline
+42.2 $\pm$ 0.05 & 9318.4 $\pm$ 400 \\
+50.9 $\pm$ 0.05 & 11710.3 $\pm$ 400 \\
+56.9 $\pm$ 0.05 & 16627.1 $\pm$ 400 \\
+58.7 $\pm$ 0.05 & 17823.1 $\pm$ 400 \\
+61.7 $\pm$ 0.05 & 21278.1 $\pm$ 400 \\
+63.5 $\pm$ 0.05 & 22208.3 $\pm$ 400 \\
+64.5 $\pm$ 0.05 & 23803.0 $\pm$ 400 \\
+66.8 $\pm$ 0.05 & 25663.4 $\pm$ 400 \\
+68.2 $\pm$ 0.05 & 27523.8 $\pm$ 400 \\
+70.3 $\pm$ 0.05 & 29915.7 $\pm$ 400 \\
+72.5 $\pm$ 0.05 & 32174.8 $\pm$ 400 \\
+75.0 $\pm$ 0.05 & 34832.5 $\pm$ 400 \\
+76.0 $\pm$ 0.05 & 36825.8 $\pm$ 400 \\
+78.1 $\pm$ 0.05 & 39217.8 $\pm$ 400 \\
+79.2 $\pm$ 0.05 & 41875.5 $\pm$ 400 \\
+81.2 $\pm$ 0.05 & 45463.4 $\pm$ 400 \\
+83.0 $\pm$ 0.05 & 48519.8 $\pm$ 400 \\
+84.3 $\pm$ 0.05 & 51443.3 $\pm$ 400 \\
+86.0 $\pm$ 0.05 & 54499.7 $\pm$ 400 \\
+86.7 $\pm$ 0.05 & 56493.0 $\pm$ 400 \\
+88.0 $\pm$ 0.05 & 60479.6 $\pm$ 400 \\
+89.0 $\pm$ 0.05 & 63403.1 $\pm$ 400 \\
+92.7 $\pm$ 0.05 & 72439.3 $\pm$ 400 \\
+\end{tabular}
+\caption{Die mit Hilfe von Gleichung (\ref{eq:d_P2_FR}) und den Werten aus Tabelle \ref{tb:messwerte} erechneten Dampfdrücke mit Fehlern gemäß Gleichung \ref{eq:d_P2}} 
+\end{table}
+
+Wenn man diese Werte, wie im folgenden graphisch aufträgt,
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height = 12cm]{Bilder/pDgegenT.png}
+    \caption{Der Dampfdruck $P_D$ aufgetragen gegen die Temperatur T die Fitkurve wurde mittels Numpy.polyfit erstellt.}
+    
+\end{figure}
+
+ist der exponentielle Zusammenhang, so wie  in Gleichung (\ref{eq:pd}) verausgesagt, zwischen Dampfdruck und Temperaturanstieg zu erkennen. NOCH VERGLEICH KURVE
+
+\subsection{Lineare Dampfdruckkurve}
+
