@@ -9,13 +9,9 @@ zu entleerenden Volumen Luft angesaugt, die daraufhin im
 zweiten Schritt verdichtet und zum Ausgabepunkt transportiert 
 wird, dort wird sie dann ausgeschoben, daraufhin wiederholt 
 sich der Prozess nun. Bei der Wasserstrahlpumpe im Gegensatz 
-beruht die Funktionsweise auf der Kontinuitätsgleichung. Bei 
-der Wasserstrahlpumpe fließt Wasser erst durch einen Schlauch 
-der verengt wird, somit erhöht sich die Geschwindigkeit des 
-Wassers und der Druck nimmt ab. Danach wird der Schlauch 
-schlagartig wieder größer wodurch dann Luft aus der Umgebung 
-angesaugt wird, in das Wasser eingelagert wird und somit auch 
-Abtransportiert. 
+beruht die Funktionsweise auf der Kontinuitätsgleichung. Das durch ein Rohr strömende Wasser wird an einer Verengung im Rohr beschleunigt. Aufgrund der Kontinuitätsgleichung ist die Fließgeschwindigkeit des Wassers proportional zur Verringerung des Rohrquerschnitts. Nach der Bernoulli-Gleichung führt dies an dieser Stelle zu einem Anstieg des dynamischen Drucks, während der statische Druck gleichzeitig abnimmt.
+
+Der so entstehende Unterdruck ermöglicht das Entziehen von Luft aus dem zu evakuierenden System. Die angesaugte Luft wird in den Wasserstrahl eingemischt und zusammen mit diesem in den Außenraum abgeführt.
 \begin{figure}[H]
     \centering
     \includegraphics[height = 10cm]{Bilder/Wasserstrahlpumpe.png}
@@ -26,17 +22,7 @@ Abtransportiert.
 \newpage
 
 \subsection{Phasendiagramm}
-Die drei Phasen die im alltäglichem Leben beobachtet werden 
-können sind, Gasförmig, Flüssig und Fest. Im Gasförmigen Zustand 
-haben die jeweiligen Teilchen genug Energie um Wechselwirkungen 
-zwischeneinander zu durchbrechen und sich frei im Raum zu 
-bewegen. In der Flüssigen Phase haben die Teilchen nicht mehr 
-genug Energie um die gegenseitigen Wechselwirkungne zu 
-überwinden, sie haben aber immernoch genug Energie übrig um 
-sich innerhalb der Flüssigkeit frei zu bewegen. In der festen 
-Phase haben die Teilchen kaum noch Energie übrig weswegen sie 
-sich in einem festen Gitter an ordnen und nur noch an ihrem 
-festen Platz schwingen können. 
+Die drei Phasen, die im alltäglichen Leben beobachtet werden können, sind gasförmig, flüssig und fest. Im gasförmigen Zustand haben die jeweiligen Teilchen genug Energie, um Wechselwirkungen untereinander zu durchbrechen und sich frei im Raum zu bewegen. In der flüssigen Phase haben die Teilchen nicht mehr genug Energie, um die gegenseitigen Wechselwirkungen zu überwinden, sie haben aber immer noch genug Energie übrig, um sich innerhalb der Flüssigkeit frei zu bewegen. In der festen Phase haben die Teilchen kaum noch Energie übrig, weshalb sie sich in einem festen Gitter anordnen und nur noch an ihrem festen Platz schwingen können. 
 \begin{figure}[H]
 \centering
 \includegraphics[scale = 1]{Bilder/Phasendiagramm Wasser.png}
@@ -45,33 +31,21 @@ wird die Siedepunktskurve oder auch Dampfdruckkurve gennant
 betrachtet\cite{Phasendiagrammwasser}}
 \end{figure}
 
-Die im Versuch zu betrachtende Dampfdruckkurve ist die Verbindung 
-zwischen Gasförmig und Flüssig, genau auf der Kurve befinden 
-sich die beiden Phasen in einem Thermodynamischen Gleichgewicht 
-welches durch das Gibbs Potential ausgedrückt werden kann.
+Die im Versuch zu betrachtende Dampfdruckkurve ist die Verbindung zwischen gasförmig und flüssig. Genau auf der Kurve befinden sich die beiden Phasen in einem thermodynamischen Gleichgewicht, welches durch das Gibbs-Potential ausgedrückt werden kann.
 \begin{equation}
     \Delta G = U + p \cdot V - S\cdot T
 \end{equation}
-Diese Formel gibt das Potential der Teilchen an und kann ebenfalls als,
+Diese Formel gibt das Potential der Teilchen an und kann ebenfalls als
 \begin{equation}
     \Delta G = \Delta \left(U + p \cdot V - S\cdot T\right) = 0
 \end{equation}
-dargestellt werden. Diese Formel bezeichnet dass das Potential des ,in diesem Fall 
-,Wassers immer so niedrig wie möglich ist. Wenn dieses Gleichgewicht, 
-also $\Delta G = 0$ nun also auf der Dampfdruckkurve liegt können 
-sogar beide Phasen gleichzeitig existieren. Auf dem Triple-Punkt 
-existieren sogar alle drei Phasen nebeneinander.
+dargestellt werden. Diese Formel bedeutet, dass das Potential des — in diesem Fall — Wassers immer so niedrig wie möglich ist. Wenn dieses Gleichgewicht, also $\Delta G = 0$, auf der Dampfdruckkurve liegt, können sogar beide Phasen gleichzeitig existieren. Am Tripelpunkt existieren sogar alle drei Phasen nebeneinander.
 
 \newpage
 \subsection{Clausius-Clapeyron-Gleichung}
 
-Mithilfe der Clausius-Clapeyron-Gleichung lässt sich der Zusammenhang 
-zwischen dem Dampfdruck und der Temperatur eines Systems ermitteln. 
-Sie kann mithilfe einiger Annahmen aus der Formel des Carnot-Kreisprozesses 
-hergeleitet werden. Hierzu wird die Formel des Wirkungsgrad $\eta$ des Carnot-Kreisprozesses 
-verwendet, bei welcher die Übergänge des Kreisprozesses beachtet werden 
-bei denen Arbeit verrichtet wird, dadurch erhählt man für den Wirkungsgrad 
-$\eta$ 
+Mithilfe der Clausius-Clapeyron-Gleichung lässt sich der Zusammenhang zwischen dem Dampfdruck und der Temperatur eines Systems ermitteln. Sie kann mithilfe einiger Annahmen aus der Formel des Carnot-Kreisprozesses hergeleitet werden. Hierzu wird die Formel für den Wirkungsgrad $\eta$
+des Carnot-Kreisprozesses verwendet, bei welcher die Übergänge des Kreisprozesses betrachtet werden, bei denen Arbeit verrichtet wird. Dadurch erhält man für den Wirkungsgrad $\eta$:
 \begin{equation}
     \eta = \frac{\Delta W}{\Delta Q} = \frac{\Delta p_D \cdot \left(V_D-V_{Fl}\right)}{r\left(T\right)} = \frac{\Delta T}{T + \Delta T}
 \label{Carnot-Kreisprozess}
@@ -88,8 +62,8 @@ werden.
     \frac{d p_D}{d T} = \frac{r\left(T\right)}{\left(V_D - V_{Fl}\right) \cdot T}
 \label{Clausius-Clapeyron-Gleichung}
 \end{equation}
-Um nun den Dampfdruck in Abhängigkeit der Temperatur zu bekommen wird 
-angenommen, dass VD >> VF l und das $r\left(T\right)$ im betrachteten Temperaturbereich Konstant ist,
+Um nun den Dampfdruck in Abhängigkeit der Temperatur zu bekommen, wird 
+angenommen dass VD >> VF l und das $r\left(T\right)$ im betrachteten Temperaturbereich Konstant ist,
 dementsprechend $r\left(T\right) = r$. Diese annahmen zusammen mit Gleichung \ref{Clausius-Clapeyron-Gleichung} ergeben,
 \begin{equation}
     \frac{d p_D}{dT} = \frac{r}{V_D \cdot T}
@@ -109,19 +83,7 @@ T die neue Temperatur und $T_0$ die Anfangs Temperatur.
 \newpage
 
 \subsection{Flüssigkeitsbarometer}
-Flüssigkeitsbarometer bestehen aus einem am Oberen Ende geschlossenem 
-Rohr welches bis auf eine kleine Menge an Luft mit einer Flüssigkeit 
-gefüllt sind. Da diese Flüssigkeit nun durch die Gravitation 
-nach unten gezogen wird entsteht ein Kräftegleichgewicht und 
-die Flüssigkeit wird im Rohr gehalten. Damit nun bei Druck Änderungen 
-außerhalb des Rohres die Füllhöhe steigen kann wird außerhalb 
-ein nach oben geöffnetes Reservoir angebracht damit ein 
-Druckausgleich stattfinden kann. Flüssigkeitsbarometer 
-verwenden meist Quecksilber als Flüssigkeit da Quecksilber eine 
-sehr hohe dichte hat und das Barometer dadurch kompakt gehalten 
-werden kann. Außerdem verdunstet Quecksilber nur sehr langsam 
-weswegen Quecksilberbarometer sehr lange benutzt werden können 
-bevor sie erneuert werden müssen.
+Flüssigkeitsbarometer bestehen aus einem am oberen Ende geschlossenen Rohr, das bis auf eine kleine Menge Luft mit einer Flüssigkeit gefüllt ist. Da diese Flüssigkeit nun durch die Gravitation nach unten gezogen wird, entsteht ein Kräftegleichgewicht und die Flüssigkeit wird im Rohr gehalten. Damit bei Druckänderungen außerhalb des Rohres die Füllhöhe steigen kann, wird außen ein nach oben geöffnetes Reservoir angebracht, damit ein Druckausgleich stattfinden kann. Flüssigkeitsbarometer verwenden meist Quecksilber als Flüssigkeit, da Quecksilber eine sehr hohe Dichte hat und das Barometer dadurch kompakt gehalten werden kann. Außerdem verdunstet Quecksilber nur sehr langsam, weshalb Quecksilberbarometer sehr lange benutzt werden können, bevor sie erneuert werden müssen.
 \begin{figure}[H]
     \centering
     \includegraphics{Bilder/Flüssigkeitsbarometer.png}

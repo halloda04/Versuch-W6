@@ -112,6 +112,76 @@
       \verb https://de.wikipedia.org/wiki/Barometer
       \endverb
     \endentry
+    \entry{Hgdichte}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=cb006fd3f2ef3164fa15ecc7fdbee6c7}{%
+           family={gestis.dguv.de.},
+           familyi={g\bibinitperiod}}}%
+      }
+      \strng{namehash}{cb006fd3f2ef3164fa15ecc7fdbee6c7}
+      \strng{fullhash}{cb006fd3f2ef3164fa15ecc7fdbee6c7}
+      \strng{fullhashraw}{cb006fd3f2ef3164fa15ecc7fdbee6c7}
+      \strng{bibnamehash}{cb006fd3f2ef3164fa15ecc7fdbee6c7}
+      \strng{authorbibnamehash}{cb006fd3f2ef3164fa15ecc7fdbee6c7}
+      \strng{authornamehash}{cb006fd3f2ef3164fa15ecc7fdbee6c7}
+      \strng{authorfullhash}{cb006fd3f2ef3164fa15ecc7fdbee6c7}
+      \strng{authorfullhashraw}{cb006fd3f2ef3164fa15ecc7fdbee6c7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GESTIS-Stoffdatenbank}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://gestis.dguv.de/data?name= 008490
+      \endverb
+      \verb{url}
+      \verb https://gestis.dguv.de/data?name=%20008490
+      \endverb
+    \endentry
+    \entry{Tipler}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6d49f29f369c162604bae0d2f6dd9db}{%
+           family={G.\bibnamedelimi Mosca},
+           familyi={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={P.A\bibnamedelima Tipler},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={und},
+           prefixi={u\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=6cc4e7b4a2eb156c43fb992b31bd417f}{%
+           family={Kersten},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Spektrum}%
+      }
+      \strng{namehash}{b6d49f29f369c162604bae0d2f6dd9db}
+      \strng{fullhash}{b6d49f29f369c162604bae0d2f6dd9db}
+      \strng{fullhashraw}{b6d49f29f369c162604bae0d2f6dd9db}
+      \strng{bibnamehash}{b6d49f29f369c162604bae0d2f6dd9db}
+      \strng{authorbibnamehash}{b6d49f29f369c162604bae0d2f6dd9db}
+      \strng{authornamehash}{b6d49f29f369c162604bae0d2f6dd9db}
+      \strng{authorfullhash}{b6d49f29f369c162604bae0d2f6dd9db}
+      \strng{authorfullhashraw}{b6d49f29f369c162604bae0d2f6dd9db}
+      \strng{editorbibnamehash}{6cc4e7b4a2eb156c43fb992b31bd417f}
+      \strng{editornamehash}{6cc4e7b4a2eb156c43fb992b31bd417f}
+      \strng{editorfullhash}{6cc4e7b4a2eb156c43fb992b31bd417f}
+      \strng{editorfullhashraw}{6cc4e7b4a2eb156c43fb992b31bd417f}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Physik für Wissenschaftler und Ingenieure}
+      \field{year}{2019}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

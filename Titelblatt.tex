@@ -25,6 +25,7 @@
 \addbibresource{literatur.bib}
 %\usepackage{hyperref}
 \usepackage{amssymb}
+\usepackage{ragged2e}
 
 
 
@@ -62,7 +63,9 @@
 \titleformat{\subsection}{\subsectionstyle}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}{\subsubsectionstyle}{\thesubsubsection}{1em}{}
 
+ \usepackage{setspace}
 
+% Definition der Daten als Konstanten für die Reproduktion
 
 
 
@@ -73,7 +76,7 @@
 
 
 \begin{document}
-
+\justifying
 
 
 \begin{titlepage}
@@ -88,15 +91,29 @@
    \vspace{1cm}
 
 
-     \begin{minipage}{0.7\textwidth}
-        {\large \setstretch{2}{Gruppe: \hspace{2,8cm} G 04}}\\ \vspace{0,3cm}   
-    {\large \setstretch{2}{Versuchsdatum: \hspace{1,55cm}\Versuchsdatum}}\\\vspace{0,3cm}
-     {\large \setstretch{2}{Abgabedatum: \hspace{1,8cm}\Abgabedatum}}\\\vspace{1,5cm}
-    {\large \setstretch{2}{Gemeinsames Versuchsprotokoll}}\\
-     {\large \setstretch{2}{Ferdinand Frey\\Tom Glaser}}
+    
+\begin{minipage}{0.5\textwidth}
+\setstretch{1.8}
 
-  \end{minipage}
-     
+{\large Gruppe: \hfill G 04} % \hfill schiebt "G 04" nach rechts
+
+\vspace{0.1cm}
+
+{\large Versuchsdatum: \hfill \Versuchsdatum} % \hfill schiebt das Datum nach rechts
+
+\vspace{0.1cm}
+
+{\large Abgabedatum: \hfill \Abgabedatum} % \hfill schiebt das Datum nach rechts
+
+\vspace{1.2cm}
+
+{\large Gemeinsames Versuchsprotokoll}
+
+\vspace{0.3cm}
+
+{\large Ferdinand Frey\\Tom Glaser}
+
+\end{minipage}
 
 \vspace{2cm}
     \begin{minipage}{0.5\textwidth}
