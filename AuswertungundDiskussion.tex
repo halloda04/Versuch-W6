@@ -1,6 +1,9 @@
 \section{Auswertung}
 \subsection{Umgebungsdruck}
-Es wurde für die Quecksilbersäule eine Höhe von 953,0mb und für die Kuppel eine Höhe von 1,2 mb gemessen. Die Raumtemperatur war $(21,1 \pm0,1)~^\circ\mathrm{C}$. Für die Geographische Lage von Augsburg wurde eine Höhenlage von 500m, eine östliche Länge von 10° 52 min und eine nördliche Breite von 48° 21 min verwendet. Mit diesen Werten lässt sich die gemessene Quecksilbersäure korrigieren. 
+Für die Quecksilbersäule wurde eine Höhe von 953,0~mbar und für die Kuppel eine Höhe von 1,2~mbar gemessen. Die Raumtemperatur betrug $(21,1 \pm 0,1)~^\circ\mathrm{C}$. 
+Für die geographische Lage von Augsburg wurden eine Höhenlage von 500~m, eine östliche Länge von 10°\,52' und eine nördliche Breite von 48°\,21' verwendet. 
+Mit diesen Werten lässt sich die gemessene Quecksilbersäule entsprechend korrigieren.
+
 
 \begin{table}[H]
 \centering
@@ -23,7 +26,10 @@ Korregierter Druck $p_0$ & = 950,30mb \\
 \end{table}
 
 
-Damit Ergibt sich ein wahrer Atmosphärendruck von $p_0 = 950,30mb = 95030$ Pa. Hier wird angenommen das keine weiteren Fehler gemacht wurden und somit Auf die Fehlerrechnung verzichtet. Die Steighöhe der Quecksilbersäule ist im folgendem
+Damit ergibt sich ein wahrer Atmosphärendruck von $p_0 = 950,30~\mathrm{mbar} = 95030~\mathrm{Pa}$. 
+Hier wird angenommen, dass keine weiteren Fehler aufgetreten sind, und daher wird auf eine Fehlerrechnung verzichtet. 
+Die Steighöhe der Quecksilbersäule ist im Folgenden angegeben.
+
 
 \begin{table}[H]
 \centering
@@ -58,20 +64,29 @@ $h_\mathrm{Hg}$ [mm] & $T$ [K] \\
 \label{tb:messwerte}
 \end{table}
 
-gegen die ensprechende Temperatur aufgetragen. Bei dieser Messung gibt es einige Fehlerquellen. Die wohl größte ist die Bestimmung des Zeitpunkts an dem das Wasser zu kochen beginnt. Dieser wurde bei der Durchführung als der Zeitpunkt definiert an dem am gesamten Rand des Gefäßes Luftblasen zu sehen wahren, sich also an mehrern Siedesteinchen Blasen bilden. Trotz dieser Definition muss dieser Zeitpunkt immer noch Subjektiv festgestellt werden. Die Tempertur und der Druck muss dann zeitgleich abgelesen werden. Beides ist Fehleranfällig. Eine weitere Fehlerquelle ist das Ablesen der Höhe der Quecksilbersäule. Hier wird zum einen die Höhe der Kuppel nicht berücksichtigt, zum anderen muss die Höhe an einer Milimeterskala abgelesen werden was ebenfalls Fehleranfällig ist. Aus diesen Gründen die Höhe ein Messfehler von $\pm 3mm$. Der Fehler der Temperatur ensteht dadurch das Display nur eine Nachkommastellen anzeigen kann.\\
-Durch die Differenz von dem Außendruck und dem Druck im Gefäß lässt sich der Dampfdruck $p_D$ betrachten. Betrachtet man aber zuerst den Druck $p$
+gegen die entsprechende Temperatur aufgetragen. Bei dieser Messung gibt es einige Fehlerquellen. 
+Die wohl größte ist die Bestimmung des Zeitpunkts, an dem das Wasser zu kochen beginnt. 
+Dieser wurde bei der Durchführung als der Zeitpunkt definiert, an dem am gesamten Rand des Gefäßes Luftblasen zu sehen waren, sich also an mehreren Siedesteinchen Blasen bilden. 
+Trotz dieser Definition muss dieser Zeitpunkt immer noch subjektiv festgestellt werden. 
+Die Temperatur und der Druck müssen dann zeitgleich abgelesen werden. Beides ist fehleranfällig. 
+Eine weitere Fehlerquelle ist das Ablesen der Höhe der Quecksilbersäule. Hier wird zum einen die Höhe der Kuppel nicht berücksichtigt, zum anderen muss die Höhe an einer Millimeterskala abgelesen werden, was ebenfalls fehleranfällig ist. 
+Aus diesen Gründen beträgt der Messfehler der Höhe $\pm 3~\mathrm{mm}$. 
+Der Fehler der Temperatur entsteht dadurch, dass das Display nur eine Nachkommastelle anzeigen kann.\\
+Durch die Differenz zwischen dem Außendruck und dem Druck im Gefäß lässt sich der Dampfdruck $p_D$ betrachten. 
+Betrachtet man jedoch zuerst den Druck $p$.
+
 
 \begin{equation}
 p = \frac{F}{A}
 \end{equation}
 
-Da die relevante Kraft hier die Gravitationskraft ist folgt mit $F = F_g$ daraus:
+Da die relevante Kraft hier die Gravitationskraft ist, folgt mit $F = F_g$ daraus:
 
 \begin{equation}
 p = \frac{m_{Hg} \cdot g}{A_{Rohr}} = \frac{\rho_{Hg} \cdot A_{Rohr} \cdot h \cdot g}{A_{Rohr}} = \rho_{Hg} \cdot g \cdot h = p_0 - p_D
 \end{equation}
 
-Damit folgt für den Dampfdruck 
+Damit folgt für den Dampfdruck.
 \begin{equation}
 p_D = p_0 - p_{Hg} \cdot g \cdot h
 \label{eq:d_P2_FR}
@@ -130,13 +145,13 @@ Wenn man diese Werte, wie im folgenden graphisch aufträgt,
     \label{gl:5}
 \end{figure}
 
-ist der exponentielle Zusammenhang, so wie  in Gleichung (\ref{eq:pd}) verausgesagt, zwischen Dampfdruck und Temperaturanstieg zu erkennen. Vergleicht man dies mit den theoretischen werten für den Siedepunkt von 100°C bei Normaldruck so erhält man mit Hilfe der Clausius-Clapeyron-Gleichung
+ist der exponentielle Zusammenhang, so wie  in Gleichung (\ref{eq:pd}) verausgesagt, zwischen Dampfdruck und Temperaturanstieg zu erkennen. Vergleicht man dies mit den theoretischen Werten für den Siedepunkt von 100°C bei Normaldruck,so erhält man mit Hilfe der Clausius-Clapeyron-Gleichung
 
 \begin{equation}
 p_D(T) = 101300~\mathrm{Pa} \cdot \exp \Bigg[ - \frac{40.642~\mathrm{kJ/mol}}{8.314~\mathrm{J/(mol \cdot K)}} \left( \frac{1}{T} - \frac{1}{373.15~\mathrm{K}} \right) \Bigg]
 \end{equation}
 
-Wenn man diese Werte in Abbildung \ref{gl:5} eintägt,
+Wenn man diese Werte in Abbildung \ref{gl:5} einträgt,
 
 \begin{figure}[H]
     \centering
@@ -145,10 +160,10 @@ Wenn man diese Werte in Abbildung \ref{gl:5} eintägt,
     
 \end{figure}
 
-kann man eine leichte Abweichung von den Messwerten, die mit steigenden Tempearturen zunimmt, beobachtet werden. Ein Grund könnte möglicherweise das die Steighöhe der Quecksilbersäule von der Temperatur oder Druck im System, noch wegen anderen Gründen abhängig ist.
+kann man eine leichte Abweichung von den Messwerten, die mit steigenden Temperaturen zunimmt, beobachtet werden. Ein Grund könnte möglicherweise sein, dass die Steighöhe der Quecksilbersäule von der Temperatur oder Druck im System, noch wegen anderen Gründen abhängig ist.
 
 
-
+\newpage
 \subsection{Lineare Dampfdruckkurve}
 Mit Hilfe des Logarithmus lässt sich ein Linearer Zusammenhang zwischen $P_D$ und $1/T$ herstellen. 
 
@@ -198,16 +213,17 @@ Durch Differentiation und Umstellung von Gleichung (\ref{eq:ln}) ergibt sich fü
 r = -m \cdot R \approx 40.07 \frac{\mathrm{KJ}}{\mathrm{mol}}
 \end{equation}
 
-Da $R$ als Fehlerfrei angenommen wird ergibt sich für den Größtfehler von r folgende Gleichung.
+Da $R$ als fehlerfrei angenommen wird, ergibt sich für den Größtfehler von $r$ folgende Gleichung:
 
 \begin{equation}
-\Delta r = \pm \left| \frac{\partial r}{\partial m}\right| \Delta m = \pm \Delta m \cdot R
+\Delta r = \pm \left| \frac{\partial r}{\partial m} \right| \Delta m = \pm \Delta m \cdot R
 \end{equation}
 
-Nach Einsetzen der Werte ist die aus den Messwerten resultierende molare Verdampfungswärme für Wasser durch
+Nach Einsetzen der Werte ergibt sich aus den Messwerten die molare Verdampfungswärme für Wasser zu:
+
 \begin{equation}
-r \approx (40.07 \pm 2.47)~\mathrm{kJ/mol}
+r \approx (40,07 \pm 2,47)~\mathrm{kJ/mol}
 \end{equation}
-gegeben. Der Literatur Wert aus \cite{Tipler} beträgt $r_L = 40,66 \mathrm{kJ/mol}$. Somit ist die bestimmte Verdampfungswärme $r$ in der Fehlerschranke, die durch $\Delta r$ gegeben ist. 
 
-
+Der Literaturwert aus \cite{Tipler} beträgt $r_L = 40,66~\mathrm{kJ/mol}$. 
+Somit liegt die bestimmte Verdampfungswärme $r$ innerhalb der Fehlerschranke, die durch $\Delta r$ angegeben ist.
